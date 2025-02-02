@@ -54,7 +54,23 @@ In HTML the `<img>` tag is used to  display picture
 
 ### Code Fences 
 ```html
+   <div class="container">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="grid.html">Grid</a></li>
+          <li><a href="https://trentu.ca">Trent</a></li>
+          <li><a href="https://loki.trentu.ca">Loki</a></li>
+        </ul>
+      </nav>
 ```
 
 ```css
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em;
+  background-color: #a9c47f;
+}
 ```
